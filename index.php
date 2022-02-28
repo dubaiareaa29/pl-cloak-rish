@@ -1,35 +1,3 @@
-<?php
-/**
- * Campaign: FredKKing2323
- * Created: 2022-02-21 15:00:22 UTC
- */
-
-require 'leadcloak-16rappy53ln9.php';
-
-// ---------------------------------------------------
-// Configuration
-
-// Set this to false if application is properly installed.
-$enableDebugging = false;
-
-// Set this to false if you won't want to log error messages
-$enableLogging = true;
-
-if ($enableDebugging) {
-	isApplicationReadyToRun();
-}
-
-if (isPost())
-{
-	$data = httpRequestMakePayload($campaignId, $campaignSignature, $_POST);
-
-	$response = httpRequestExec($data);
-
-	httpHandleResponse($response, $enableLogging);
-
-	exit();
-}
-?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -41,8 +9,11 @@ if (isPost())
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/main.css">
 	<script type="text/javascript" src="script_land.js" defer></script>
-	<script type="text/javascript" src="16rappy53ln9.js"></script>
-</head>
+ <script type="text/javascript" src="16u7zpv4sc30.js"></script> 
+	
+	
+	
+	</head>
 	<body>
 		<div class="wrapper">
 			<div class="forma">
